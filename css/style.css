@@ -1,3 +1,32 @@
 div.file {
   padding-top: 5%;
 }
+
+#steps {
+  padding-top: 5%;
+}
+
+#count {
+  font-size: 80px;
+}
+
+#fileName {
+  font-size: 30px
+}
+
+#fileIcon {
+  color: #3273dc;
+}
+
+#webIcon {
+  color: #23d160;
+}
+
+#readIcon {
+  color: #ff3860;
+}
+.small-header {
+  font-weight: 400;
+  font-size: 20px;
+  padding: 20px 0;
+}

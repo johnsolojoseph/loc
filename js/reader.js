@@ -11,11 +11,13 @@ document.getElementById('file').onchange = function() {
     // By lines
     var lines = this.result.split('\n');
     var count = 0;
+    document.getElementById('fileName').innerHTML = e.target.fileName;
     for (var line = 0; line < lines.length; line++) {
       console.log(lines[line]);
       count = count + 1;
-      document.getElementById('result').innerHTML = e.target.fileName + " lines of code: <br> " + count;
     }
+
+    document.getElementById('count').innerHTML = count;
   };
   reader.readAsText(file);
 
